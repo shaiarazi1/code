@@ -1,0 +1,48 @@
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.content {
+  margin: 110px 380px 0 380px;
+  text-align: center;
+}
+.hide {
+  opacity: 0;
+  transition: opacity .4s ease-in-out;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 440px 0;
+  }
+.error{
+  font-size: 120px;
+  line-height: 140px;
+  font-weight: 400;
+  margin: 0 440px;
+  text-align: center;
+}
+  
+  .error:hover + .hide {
+  opacity: 1;
+  }
+  footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.footer {
+   
+    margin: auto;
+    width: 400px;
+    text-align:center;
+    padding:10px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+}
